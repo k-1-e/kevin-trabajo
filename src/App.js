@@ -1,26 +1,24 @@
-import Button from "./components/Button";
+import { MostrarAlerta } from "./components/Alertas"
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Button 
-          color="black" 
-          fontColor="white"
-          size="xl" 
-        />
-        <Button 
-          color="orange" 
-          fontColor="white"
-          text="Delete"
-        />
-        <Button 
-          color="coral" 
-          fontColor="white"
-        />
+      <MostrarAlerta
+        altura = "20px"
+        ancho = "autopx"
+        colorFondo = "green"
+        texto = "hola2">
+      </MostrarAlerta>
+      <MostrarAlerta
+        altura = "20px"
+        ancho = "autopx"
+        colorFondo = "red"
+        texto = "hola">
+      </MostrarAlerta>
+      
       </header>
     </div>
   );
 }
-
 export default App;
