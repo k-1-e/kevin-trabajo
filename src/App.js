@@ -5,16 +5,16 @@ function App() {
     <div className="App">
       <header className="App-header">
       <MostrarAlerta
-        altura = "20px"
+        altura = "30px"
         ancho = "autopx"
         colorFondo = "green"
-        texto = "hola2">
+        texto = "Default Alert">
       </MostrarAlerta>
       <MostrarAlerta
-        altura = "20px"
+        altura = "30px"
         ancho = "autopx"
         colorFondo = "red"
-        texto = "hola">
+        texto = "Success Alert">
       </MostrarAlerta>
       
       </header>
