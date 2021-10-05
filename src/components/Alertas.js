@@ -4,7 +4,11 @@ const MostrarAlerta = ({altura, ancho, colorFondo, texto}) => {
             <div style={{
                 height : altura,
                 width: ancho,
-                background:colorFondo
+                background:colorFondo,
+                 
+                marginLeft: 'auto%',
+               
+                borderRadius: '10px',
             }}>
                {texto}
             </div>
@@ -17,3 +21,4 @@ const MostrarAlerta = ({altura, ancho, colorFondo, texto}) => {
 export{
     MostrarAlerta
 }
+
